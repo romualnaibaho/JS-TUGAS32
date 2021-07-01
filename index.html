@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+ <head>
+        <meta charset="utf-8" />
+        <title>Belajar Javascript - NIOMIC</title>
+ </head>
+ <body>
+        <input type="text" id="fnama" value="Nama Depan" /> <br />
+        <input type="text" id="lnama" value="Nama Belakang" /> <br />
+        <input type="text" id="hobi" value="Hobi" /> <br /><br />
+
+        <button type="button" onclick="cek()" name="button">Jalan</button>
+   
+        <script>
+            function cek(){
+                var fnama = document.getElementById('fnama');
+                var lnama = document.getElementById('lnama');
+                var hobi = document.getElementById('hobi');
+
+                console.log(fnama, lnama, hobi);
+            }
+        </script>
+ </body>
+</html>
